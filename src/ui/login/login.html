@@ -11,20 +11,20 @@
 <body>
     <header class="container-fluid">
     </header>
-    <main class="container-fluid d-flex justify-content-center align-items-center" style="height: 95vh;">
+    <main class="container-fluid d-flex justify-content-center align-items-center" style="height:90vh">
         <div class="row">
             <div class="col-md-12">
-                <form class="card card-body">
+                <form class="card card-body" id="loginForm">
                     <div class="form-group mx-auto my-auto">
                         <img src="../../assets/img/avatar.png" alt="" style="width: 5em;border-radius: 3em;">
                     </div>
                     <div class="form-group p-2">
                         <label class="form-label">Usuario</label>
-                        <input type="text" class="form-control-sm col-12" id="name" placeholder="Usuario" autofocus />
+                        <input type="text" class="form-control-sm col-12" id="username" placeholder="Usuario" autofocus />
                     </div>
                     <div class="form-group p-2">
                         <label class="form-label">Password</label>
-                        <input type="text" class="form-control-sm col-12" id="name" placeholder="Contraseña"
+                        <input type="text" class="form-control-sm col-12" id="password" placeholder="Contraseña"
                             autofocus />
                     </div>
                     <div class="form-group my-auto mx-auto pt-2 bt-2">
@@ -41,9 +41,11 @@
             </div>
         </div>
     </main>
+    
     <footer class="container-fluid">
-        <h1 class="fs-4">Propasa Guatemala</h1>
+        <h1 class="fs-4" style="bottom: 0;">Propasa Guatemala</h1>
     </footer>
+    <script src="./login.js"></script>
 </body>
 
 </html>
